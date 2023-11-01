@@ -1,0 +1,9 @@
+# Use the official MinIO image as a base
+FROM minio/minio:latest
+
+# Set environment variables if needed (can also be set in docker-compose)
+# ENV MINIO_ROOT_USER=myuser
+# ENV MINIO_ROOT_PASSWORD=mypassword
+
+# Command to run MinIO
+CMD ["server", "/data"]

@@ -1,5 +1,29 @@
-app.py
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Virtual Environment
 venv/
-*.env
-Dockerfile
-requirements.txt
+myenv/
+.venv/
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Dependency directories
+.mypy_cache/
+.pytest_cache/
+.hypothesis/

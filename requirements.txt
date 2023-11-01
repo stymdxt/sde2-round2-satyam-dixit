@@ -1,0 +1,11 @@
+boto3==1.28.75
+minio==7.1.17
+mysql-connector-python==8.2.0
+pandas==2.1.2
+pd==0.0.4
+pip==23.2.1
+pipdeptree==2.13.0
+psycopg2==2.9.9
+psycopg2-binary==2.9.9
+pylint==3.0.2
+python-dotenv==1.0.0
